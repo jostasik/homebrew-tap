@@ -9,7 +9,7 @@ Builds are pulled from [macchrome/macstable](https://github.com/macchrome/macsta
 ## Installation
 
 ```bash
-brew tap nigification/nigification-chromium
+brew tap nigification/homebrew-nigification-chromium
 brew update
 brew install nigifiction-chromium
 ```
@@ -30,7 +30,7 @@ If you're unsure, you most likely want to install `nigification-chromium`.
 
 ```bash
 brew uninstall nigification-chromium
-brew untap nigification/nigification-chromium
+brew untap nigification/homebrew-nigification-chromium
 ```
 
 

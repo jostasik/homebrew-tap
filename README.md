@@ -4,7 +4,7 @@
 *Forked from [cpbotha/homebrew-marmaduke-chromium](https://github.com/cpbotha/homebrew-marmaduke-chromium).*
 
 All Chromium releases can be found at [Woolyss](https://chromium.woolyss.com).
-Builds are pulled from [macchrome/macstable](https://github.com/macchrome/macstable).
+Builds are pulled from [nigification/homebrew-nigification-chromium](https://github.com/nigification/homebrew-nigification-chromium).
 
 ## Installation
 

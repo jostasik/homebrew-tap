@@ -1,15 +1,15 @@
-# v95 Chromium (Homebrew Tap) 
+# Personal Homebrew Tap
 
 ### Brings back the "Search Google for Image" feature!
 *Forked from [cpbotha/homebrew-marmaduke-chromium](https://github.com/cpbotha/homebrew-marmaduke-chromium).*
 
 All Chromium releases can be found at [Woolyss](https://chromium.woolyss.com).
-Builds are pulled from [jostasik/homebrew-jostasik-chromium](https://github.com/jostasik/homebrew-jostasik-chromium).
+Builds are pulled from [jostasik/homebrew-tap](https://github.com/jostasik/homebrew-jostasik-chromium).
 
 ## Installation
 
 ```bash
-brew tap jostasik/homebrew-95-chromium
+brew tap jostasik/homebrew-tap
 brew update
 brew install jostasik-chromium
 ```
@@ -30,7 +30,7 @@ If you're unsure, you most likely want to install `jostasik-chromium`.
 
 ```bash
 brew uninstall jostasik-chromium
-brew untap jostasik/homebrew-jostasik-chromium
+brew untap jostasik/homebrew-tap
 ```
 
 

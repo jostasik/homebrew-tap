@@ -1,36 +1,28 @@
-# Personal Homebrew Tap
-
-### Brings back the "Search Google for Image" feature!
-*Forked from [cpbotha/homebrew-marmaduke-chromium](https://github.com/cpbotha/homebrew-marmaduke-chromium).*
-
-All Chromium releases can be found at [Woolyss](https://chromium.woolyss.com).
-Builds are pulled from [jostasik/homebrew-tap](https://github.com/jostasik/homebrew-jostasik-chromium).
-
-## Installation
+##Tap this [homebrew](brew.sh) repo:
 
 ```bash
 brew tap jostasik/homebrew-tap
 brew update
-brew install jostasik-chromium
+brew install jostasik-"cask-name"
 ```
+---
 
-## Casks
+## [Flowgorithm-macOS | Flowgorithm for Mac OS](https://www.github.com/jostasik/Flowgorithm-macOS)
 
-This tap includes three versions of Chromium:
+Flowgorithm Casks:
 
-`jostasik-chromium` - Includes Google Sync and wildvine (DRM for Netflix).
+`jostasik-flowgorithm` - Current Release Build (Flowgorithm v3.3.1)
+
+`jostasik-flowgorithm@2.30.3` - Stable Release (Flowgorithm v2.30.3)
+
+---
+
+## Chromium for Mac | ungoogled-chromium | v95.0.4638.69 [brew tap]
+
+Chromium Casks:
+
+`jostasik-chromium` - Includes Google Sync and wildvine [DRM for Netflix].
 
 `jostasik-chromium-nosync` - Does not include Google Sync nor wildvine.
 
-`jostasik-chromium-ungoogled` - ungoogled-chromium ([Eloston/ungoogled-chromium/](https://github.com/Eloston/ungoogled-chromium/))
-
-If you're unsure, you most likely want to install `jostasik-chromium`.
-
-## Removal
-
-```bash
-brew uninstall jostasik-chromium
-brew untap jostasik/homebrew-tap
-```
-
-
+`jostasik-chromium-ungoogled` - ungoogled-chromium [Eloston/ungoogled-chromium](https://github.com/cpbotha/homebrew-marmaduke-chromium).

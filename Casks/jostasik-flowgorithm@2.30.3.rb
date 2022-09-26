@@ -8,5 +8,5 @@ cask 'jostasik-flowgorithm@2.30.3' do
   desc "Flowchart Programming Language"
   homepage 'https://github.com/jostasik/homebrew-tap/releases'
 
-  app 'Flowgorithm.app'
+  pkg 'Flowgorithm-Setup.pkg'
 end

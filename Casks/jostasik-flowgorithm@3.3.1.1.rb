@@ -1,4 +1,4 @@
-cask 'jostasik-flowgorithm' do
+cask 'jostasik-flowgorithm@3.3.1.1' do
   version '3.3.1.1'
   sha256 'fde4172b0901bc369c7e2b0dc9fde00a6f5f8d6f23513fc1749179f98058657f'
 

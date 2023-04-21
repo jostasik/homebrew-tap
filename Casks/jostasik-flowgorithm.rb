@@ -1,6 +1,6 @@
 cask 'jostasik-flowgorithm' do
   version '3.4.2'
-  sha256 'dbb5342460149920fe35f127aa583feeed13ecce2df3757fb7a93da6a23a6a85'
+  sha256 'e7c0515428cb15029bfdc1673ca8f51ac627445a82bef757b54fbd3eb49492ce'
 
   url "https://github.com/jostasik/homebrew-tap/releases/download/flowgorithm-v#{version}/Flowgorithm.v#{version}.zip"
   appcast 'https://github.com/jostasik/homebrew-tap/releases.atom'

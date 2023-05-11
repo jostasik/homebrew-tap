@@ -1,12 +1,16 @@
 cask 'jostasik-flowgorithm' do
   version '3.4.2'
-  sha256 '40fd347198ef05607d14526160055892e60ea2fe3985ffc982f3c6317b0f319e'
+  sha256 'your_sha256_checksum_here'
 
-  url "https://github.com/jostasik/homebrew-tap/releases/download/flowgorithm-v#{version}/Flowgorithm-macOS-v#{version}.zip"
+  url "https://github.com/jostasik/homebrew-tap/releases/download/flowgorithm-v#{version}/Flowgorithm.zip"
   appcast 'https://github.com/jostasik/homebrew-tap/releases.atom'
   name 'Flowgorithm'
-  desc "Flowchart Programming Language"
+  desc 'Flowchart Programming Language'
   homepage 'https://github.com/jostasik/homebrew-tap/releases'
 
-  pkg 'Flowgorithm.v3.4.2.pkg'
+  preflight do
+    system_command '/usr/bin/unzip', args: ['-q', "#{staged_path}/Flowgorithm.zip", '-d', staged_path]
+  end
+
+  app 'Flowgorithm.app'
 end

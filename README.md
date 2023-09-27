@@ -3,8 +3,9 @@
 ```bash
 brew tap jostasik/homebrew-tap
 brew update
-brew install jostasik-"cask-name"
+brew install jostasik-"cask-name" # example: brew install jostasik-flowgorithm
 ```
+
 ---
 
 ## [Flowgorithm-macOS | Flowgorithm for Mac OS](https://www.github.com/jostasik/Flowgorithm-macOS)
@@ -12,8 +13,6 @@ brew install jostasik-"cask-name"
 Flowgorithm Casks:
 
 `jostasik-flowgorithm` - Current Release Build (Flowgorithm v3.3.1.1)
-
-`jostasik-flowgorithm@2.30.3` - Old Stable (Flowgorithm v2.30.3)
 
 ---
 

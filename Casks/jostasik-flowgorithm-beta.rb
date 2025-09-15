@@ -1,6 +1,6 @@
 cask 'jostasik-flowgorithm-beta' do
   version '4.5'
-  sha256 'b1b572ae3dffd1d1ee877f3a0b7cdc934de58158368f5f9cef318273c1108090'
+  sha256 'sha256:926d4aa398d2458155857dbbf140d9a2e5b301c6739b6c949c49b16a03f70029'
 
   url "https://github.com/jostasik/homebrew-tap/releases/download/flowgorithm-v#{version}/Flowgorithm-v#{version}.zip"
   name 'Flowgorithm'

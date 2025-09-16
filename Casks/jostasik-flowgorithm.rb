@@ -1,8 +1,8 @@
 cask 'jostasik-flowgorithm' do
-  version '3.4.2'
-  sha256 '9c1516489ed6db706571546914c0b1ad837cb48341a158e73d5a1cf3039cdea8'
+  version '4.5'
+  sha256 'b1b572ae3dffd1d1ee877f3a0b7cdc934de58158368f5f9cef318273c1108090'
 
-  url "https://github.com/jostasik/homebrew-tap/releases/download/flowgorithm-v#{version}/Flowgorithm_v#{version}.zip"
+  url "https://github.com/jostasik/homebrew-tap/releases/download/flowgorithm-v#{version}/Flowgorithm-v#{version}.zip"
   name 'Flowgorithm'
   desc "Flowchart Programming Language"
   homepage 'https://github.com/jostasik/homebrew-tap/releases'
@@ -10,7 +10,7 @@ cask 'jostasik-flowgorithm' do
   livecheck do
     url "https://github.com/jostasik/homebrew-tap/releases/latest"
     strategy :page_match
-    regex(/Flowgorithm_v(\d+(?:\.\d+)*)\.zip/i)
+    regex(/Flowgorithm-v(\d+(?:\.\d+)*)\.zip/i)
   end
 
   app 'Flowgorithm.app'
